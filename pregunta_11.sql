@@ -37,5 +37,5 @@
 --  0  2018     6
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT strftime('%Y', c14) AS YEAR, COUNT(*) FROM tbl1 GROUP BY YEAR HAVING YEAR = '2018';
+SELECT COUNT(*) FROM tbl1 WHERE c14 LIKE '2018%';
 -- 
