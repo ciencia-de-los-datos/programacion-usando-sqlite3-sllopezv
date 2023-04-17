@@ -40,5 +40,5 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT strftime('%Y', c23) AS YEAR, ROUND(AVG(c21), 6) AS 'avg(c21)' FROM tbl2 GROUP BY YEAR;
+SELECT strftime('%Y', c23) AS "strftime('%Y', c23)", avg(c21) FROM tbl2 GROUP BY "strftime('%Y', c23)";
 --
