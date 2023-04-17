@@ -42,4 +42,6 @@
 --  4  E  474.825000
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
+-- Toca aproximar el resultado de la consulta a 6 decimales
+SELECT K0, avg(c12) FROM tbl1 WHERE c13 > 400 GROUP BY K0;
 --  
